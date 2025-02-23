@@ -2,11 +2,9 @@
 
 <span>
    <a href='https://arxiv.org/abs/2403.02691'>
-      <img src='https://img.shields.io/badge/Arxiv-2403.02691-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
-   </a>
+      <img src='https://img.shields.io/badge/Arxiv-2403.02691-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
    <a href='blog'>
-      <img src='https://img.shields.io/badge/Blog-Medium-black'>
-   </a>
+      <img src='https://img.shields.io/badge/Blog-Medium-black'></a>
 </span>
 
 
