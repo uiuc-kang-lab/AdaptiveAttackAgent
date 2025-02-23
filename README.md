@@ -1,17 +1,21 @@
 # Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents
 
-<!-- <p align="left">
+<p align="left">
    <a href='https://arxiv.org/abs/2403.02691'>
     <img src='https://img.shields.io/badge/Arxiv-2403.02691-A42C25?style=flat&logo=arXiv&logoColor=A42C25'>
   </a>
-</p> -->
+  <a href='blog'>
+    <img src='https://img.shields.io/badge/Blog-Medium-black'>
+  </a>
+</p>
 
-This repository contains the official code for the paper "Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents," accepted to NAACL 2025 Findings. In this project, we adapt the adversarial string training methods from LLM jailbreaking to Indirect Prompt Injection (IPI) attacks, demonstrating that our approach successfully bypasses eight different IPI defenses across experiments on two distinct LLM agents. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability.
+This repository contains the official code for the paper ["Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,"](arxiv.org) accepted to NAACL 2025 Findings. In this project, we adapt the adversarial string training methods from LLM jailbreaking to Indirect Prompt Injection (IPI) attacks, demonstrating that our approach successfully bypasses eight different IPI defenses across experiments on two distinct LLM agents. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability.
 
 
-<div style="text-align: center;">
-  <img src="asset/overview.png" alt="Overview" width="600px" />
-</div>
+<p align="center">
+  <img src="asset/overview.png" alt="Overview" width="500px" />
+</p>
+
 
 
 
@@ -37,16 +41,16 @@ For [lmsys/vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5), we incl
 For [meta-llama/Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct), we exclude `DataPromptIsolation` and `SandwichPrevention`.
 
 The table below provides descriptions of each defense and the corresponding adaptive attack used:
-<div style="text-align: center;">
-  <img src="asset/defense.png" alt="Overview" width="700px" />
-</div>
+<p align="center">
+  <img src="asset/defense.png" alt="Defense" width="700px" />
+</p>
 
 
 ## Results
 The following figures illustrate the effectiveness of our adaptive attacks, consistently achieving an attack success rate of over 50% across different defenses and LLM agents:
-<div style="text-align: center;">
-  <img src="asset/results.png" alt="Overview" width="700px" />
-</div>
+<p align="center">
+  <img src="asset/results.png" alt="Results" width="700px" />
+</p>
 
 ## Acknowledgement
 This repository builds upon outstanding jailbreaking benchmarks and methods, including [HarmBench](https://github.com/centerforaisafety/HarmBench), [GGC](https://github.com/llm-attacks/llm-attacks), [AutoDan](https://github.com/rotaryhammer/code-autodan). It also leverages the IPI benchmark [InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent).
