@@ -1,14 +1,14 @@
 # Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents
 
 <span>
-   <a href='https://arxiv.org/abs/2403.02691'>
-      <img src='https://img.shields.io/badge/Arxiv-2403.02691-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
+   <a href='https://arxiv.org/abs/2503.00061'>
+      <img src='https://img.shields.io/badge/Arxiv-2503.00061-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
    <a href='blog'>
       <img src='https://img.shields.io/badge/Blog-Medium-black'></a>
 </span>
 
 
-This repository contains the official code for the paper ["Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,"](arxiv.org) accepted to NAACL 2025 Findings. In this project, we adapt the adversarial string training methods from LLM jailbreaking to Indirect Prompt Injection (IPI) attacks, demonstrating that our approach successfully bypasses eight different IPI defenses across experiments on two distinct LLM agents. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability.
+This repository contains the official code for the paper ["Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,"](https://arxiv.org/abs/2503.00061) accepted to NAACL 2025 Findings. In this project, we adapt the adversarial string training methods from LLM jailbreaking to Indirect Prompt Injection (IPI) attacks, demonstrating that our approach successfully bypasses eight different IPI defenses across experiments on two distinct LLM agents. Our research underscores the need for adaptive attack evaluation when designing defenses to ensure robustness and reliability.
 
 
 <p align="center">
