@@ -3,7 +3,7 @@
 <span>
    <a href='https://arxiv.org/abs/2503.00061'>
       <img src='https://img.shields.io/badge/Arxiv-2503.00061-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a>
-   <a href='blog'>
+   <a href='https://medium.com/@danieldkang/adaptive-attacks-break-ai-agent-defenses-2a993d9d6b6a'>
       <img src='https://img.shields.io/badge/Blog-Medium-black'></a>
 </span>
 
